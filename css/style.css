@@ -55,7 +55,6 @@ a {
 .menu__link:hover {
   transition: 0.5s;
   color: grey;
-  text-decoration: underline;
 }
 
 .login {
@@ -70,7 +69,6 @@ a {
 .login__login:hover {
   transition: 0.5s;
   color: grey;
-  text-decoration: underline;
 }
 
 .main {
@@ -137,6 +135,8 @@ a {
   padding: 15px 34px;
 }
 .news__button:hover {
+  background: #262626;
+  transition: 0.5s;
   box-shadow: 5px -6px 8px 0px rgba(34, 60, 80, 0.2);
 }
 
@@ -167,6 +167,8 @@ a {
   padding: 15px 50px;
 }
 .gallery__button:hover {
+  background: #262626;
+  transition: 0.7s;
   box-shadow: 5px -6px 8px 0px rgba(34, 60, 80, 0.2);
 }
 
@@ -208,6 +210,8 @@ a {
   padding: 15px 25px;
 }
 .contacts__button:hover {
+  background: #262626;
+  transition: 0.7s;
   box-shadow: 5px -6px 8px 0px rgba(34, 60, 80, 0.2);
 }
 
@@ -234,6 +238,7 @@ a {
   width: 300px;
   padding: 15px;
   color: #fff;
+  cursor: pointer;
 }
 .form__submit:hover {
   background: #262626;

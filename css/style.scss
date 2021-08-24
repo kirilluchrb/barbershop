@@ -51,7 +51,6 @@ a {
         &__link:hover {
             transition: 0.5s;
             color: grey;
-            text-decoration: underline;
         }
 }
 .login {
@@ -65,7 +64,6 @@ a {
     &__login:hover {
         transition: 0.5s;
         color: grey;
-        text-decoration: underline;
     }
 }
 //MAIN 
@@ -145,6 +143,8 @@ a {
             padding: 15px 34px;
 		}
         &__button:hover {
+            background: #262626;
+            transition: 0.5s;
             box-shadow: 5px -6px 8px 0px rgba(34, 60, 80, 0.2);
         }
 }
@@ -180,6 +180,8 @@ a {
             padding: 15px 50px;
         }
         &__button:hover {
+            background: #262626;
+            transition: 0.7s;
             box-shadow: 5px -6px 8px 0px rgba(34, 60, 80, 0.2);
         }
 }
@@ -231,6 +233,8 @@ a {
         padding: 15px 25px;
     }
     &__button:hover {
+        background: #262626;
+        transition: 0.7s;
         box-shadow: 5px -6px 8px 0px rgba(34, 60, 80, 0.2);
     }
 }
@@ -258,6 +262,7 @@ a {
         width: 300px;
         padding: 15px;
         color: #fff;
+        cursor: pointer;
     }
     &__submit:hover {
         background: #262626;
